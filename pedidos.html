@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Pedidos</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/pedidos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo"><img src="logo.svg" alt="TechZone Logo"></div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="produtos.html" class="nav-link">Produtos</a>
+                <a href="busca.html" class="nav-link">Busca</a>
+                <a href="quem-somos.html" class="nav-link">Quem Somos</a>
+                <a href="contato.html" class="nav-link">Contato</a>
+                <a href="cadastro.html" class="nav-link">Cadastro</a>
+                <a href="pedidos.html" class="nav-link">Pedidos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1>Meus Pedidos</h1>
+                
+                <div class="pedidos-lista">
+                    <div class="pedido-item">
+                        <img src="nootbook] (1).jpeg" alt="Notebook Gamer">
+                        <div class="pedido-info">
+                            <h3>Notebook Gamer</h3>
+                            <p>R$ 5.999,90</p>
+                        </div>
+                        <div class="pedido-acoes">
+                            <div class="quantidade">
+                                <button>-</button>
+                                <input type="number" value="1" min="1" max="10">
+                                <button>+</button>
+                            </div>
+                            <button class="btn">Remover</button>
+                        </div>
+                    </div>
+                    
+                    <div class="pedido-item">
+                        <img src="mouse2.jpeg" alt="Mouse Gamer">
+                        <div class="pedido-info">
+                            <h3>Mouse Gamer</h3>
+                            <p>R$ 199,90</p>
+                        </div>
+                        <div class="pedido-acoes">
+                            <div class="quantidade">
+                                <button>-</button>
+                                <input type="number" value="1" min="1" max="10">
+                                <button>+</button>
+                            </div>
+                            <button class="btn">Remover</button>
+                        </div>
+                    </div>
+                    
+                    <div class="pedido-item">
+                        <img src="teclado.jpeg" alt="Teclado Mecânico">
+                        <div class="pedido-info">
+                            <h3>Teclado Mecânico</h3>
+                            <p>R$ 499,90</p>
+                        </div>
+                        <div class="pedido-acoes">
+                            <div class="quantidade">
+                                <button>-</button>
+                                <input type="number" value="1" min="1" max="10">
+                                <button>+</button>
+                            </div>
+                            <button class="btn">Remover</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resumo-pedido">
+                    <h2>Resumo do Pedido</h2>
+                    <div class="resumo-item">
+                        <span>Subtotal</span>
+                        <span>R$ 6.699,70</span>
+                    </div>
+                    <div class="resumo-item">
+                        <span>Frete</span>
+                        <span>R$ 0,00</span>
+                    </div>
+                    <div class="resumo-item">
+                        <span>Desconto</span>
+                        <span>-R$ 200,00</span>
+                    </div>
+                    <div class="resumo-total">
+                        <span>Total</span>
+                        <span>R$ 6.499,70</span>
+                    </div>
+                    
+                    <div class="cupom">
+                        <input type="text" placeholder="Cupom de desconto" class="form-control">
+                        <button class="btn btn-secondary">Aplicar</button>
+                    </div>
+                    
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Finalizar Compra</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 TechZone. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Contato</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/formularios.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo"><img src="logo.svg" alt="TechZone" height="40"></div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="produtos.html" class="nav-link">Produtos</a>
+                <a href="busca.html" class="nav-link">Busca</a>
+                <a href="quem-somos.html" class="nav-link">Quem Somos</a>
+                <a href="contato.html" class="nav-link">Contato</a>
+                <a href="cadastro.html" class="nav-link">Cadastro</a>
+                <a href="pedidos.html" class="nav-link">Pedidos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1>Entre em Contato</h1>
+                
+                <div class="contato-container">
+                    <div class="contato-info">
+                        <h2>Informações de Contato</h2>
+                        <p><strong>Endereço:</strong> Av. Tecnologia, 1234 - Centro</p>
+                        <p><strong>Telefone:</strong> (11) 1234-5678</p>
+                        <p><strong>Email:</strong> contato@techzone.com</p>
+                        
+                        <h3>Horário de Funcionamento</h3>
+                        <p>Segunda a Sexta: 9h às 18h</p>
+                        <p>Sábado: 9h às 13h</p>
+                        <p>Domingo: Fechado</p>
+                    </div>
+                    
+                    <div class="form-container">
+                        <h2>Envie uma Mensagem</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <select id="assunto" class="form-control" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="duvida">Dúvida</option>
+                                    <option value="sugestao">Sugestão</option>
+                                    <option value="reclamacao">Reclamação</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="mapa">
+                    <h2>Nossa Localização</h2>
+                    <div class="mapa-container">
+                        <!-- Aqui seria inserido um mapa, mas estamos usando um placeholder -->
+                        <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFwfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Mapa da localização">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 TechZone. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

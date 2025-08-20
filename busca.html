@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Busca</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/busca.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo"><img src="logo.svg" alt="TechZone" height="40"></div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="produtos.html" class="nav-link">Produtos</a>
+                <a href="busca.html" class="nav-link">Busca</a>
+                <a href="quem-somos.html" class="nav-link">Quem Somos</a>
+                <a href="contato.html" class="nav-link">Contato</a>
+                <a href="cadastro.html" class="nav-link">Cadastro</a>
+                <a href="pedidos.html" class="nav-link">Pedidos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1>Buscar Produtos</h1>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Digite o que você procura..." class="form-control">
+                    <button class="btn btn-primary">Buscar</button>
+                </div>
+                
+                <div class="filtros">
+                    <h3>Filtros</h3>
+                    <div class="filtro-grupo">
+                        <h4>Categoria</h4>
+                        <div>
+                            <input type="checkbox" id="notebooks" name="categoria" value="notebooks">
+                            <label for="notebooks">Notebooks</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="desktops" name="categoria" value="desktops">
+                            <label for="desktops">Desktops</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="monitores" name="categoria" value="monitores">
+                            <label for="monitores">Monitores</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="perifericos" name="categoria" value="perifericos">
+                            <label for="perifericos">Periféricos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="componentes" name="categoria" value="componentes">
+                            <label for="componentes">Componentes</label>
+                        </div>
+                    </div>
+                    
+                    <div class="filtro-grupo">
+                        <h4>Preço</h4>
+                        <div>
+                            <input type="radio" id="preco1" name="preco" value="0-500">
+                            <label for="preco1">Até R$ 500</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="preco2" name="preco" value="500-1000">
+                            <label for="preco2">R$ 500 - R$ 1.000</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="preco3" name="preco" value="1000-3000">
+                            <label for="preco3">R$ 1.000 - R$ 3.000</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="preco4" name="preco" value="3000+">
+                            <label for="preco4">Acima de R$ 3.000</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>Resultados da Busca</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <img src="nootbook] (1).jpeg" alt="Notebook Gamer">
+                        <h3>Notebook Gamer</h3>
+                        <p class="preco">R$ 5.999,90</p>
+                        <a href="produto.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                    <div class="produto-card">
+                        <img src="mouse2.jpeg" alt="Mouse Gamer">
+                        <h3>Mouse Gamer</h3>
+                        <p class="preco">R$ 199,90</p>
+                        <a href="produto.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                    <div class="produto-card">
+                        <img src="teclado.jpeg" alt="Teclado Gamer">
+                        <h3>Teclado Gamer</h3>
+                        <p class="preco">R$ 299,90</p>
+                        <a href="produto.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 TechZone. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
